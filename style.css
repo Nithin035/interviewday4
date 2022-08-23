@@ -1,0 +1,286 @@
+.replic{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(129, 129, 255);
+    border-radius: 15px;
+}
+
+
+.curr1:nth-child(1){
+    display: inline-block;
+    background-color: gold;
+    width: 100px;
+    height: 100px;
+}
+.curr1:hover:hover{
+    width: 125px;
+}
+
+.komaa{
+    font-style: italic;
+}
+.jargu{
+    position: relative;
+    bottom: 50px;
+    left: 800px;
+}
+
+
+
+.circle{
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.media{
+    background-color: white;
+    width: 100%;
+    height: 400px;
+    display: inline block;
+    flex-direction: column;
+}
+.idea1{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 700px;
+}
+.idea2{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 700px;
+    top: 50px;
+}
+.idea3{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 700px;
+    top: 100px;
+}
+@media screen and (max-width:416px) {
+   .idea1{
+    position: relative;
+    left: 50px;
+   } 
+   .idea2{
+    position: relative;
+    left: 50px;
+   } 
+   .idea3{
+    position: relative;
+    left: 50px;
+   } 
+}
+
+
+.icon{
+    width: 70px;
+    height: 70px;
+    background-color: red;
+    border-radius: 10px;
+    animation: bhanu 4s infinite;
+}
+@keyframes bhanu {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.icon2 {
+   width: 100%;
+   height: 100px;
+   background-color: aqua;
+}
+
+
+    
+  
+  .clik{
+    width: 80px;
+    height: 30px;
+    background-color: red;
+    border-radius: 5px;
+    position: relative;
+    left: 120px;
+  }
+
+  .centre{
+    justify-content: center;
+  }
+
+
+.flex-container{
+    flex-direction: row;
+    justify-content: space-around;
+    display: flex;
+    
+}
+.flex-item1{
+    background-color: blanchedalmond;
+    width: 200px;
+    height: 200px;
+    color:black;
+    justify-content: flex-end;
+    
+}
+.flex-item2{
+    background-color: blanchedalmond;
+    width: 200px;
+    height: 200px;
+    color: black;
+    justify-content: flex-end;
+    
+}
+.flex-item3{
+    background-color:blanchedalmond;
+    width: 200px;
+    height: 200px;
+    color:black;
+    justify-content:flex-end;
+    
+}
+@media screen and (max-width:416px) {
+    .flex-container{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:416px) {
+    button{
+        width: 200px;
+        height: 50px;
+        background-color: blue;
+        border-radius: 20px;
+    }
+}
+
+@media screen and (max-width:825px) and (min-width:417px) {
+    button{
+        width: 200px;
+        height: 50px;
+        background-color: red;
+        border-radius: 20px;
+    } 
+}
+
+.flex{
+    
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.flex1{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+
+    
+}
+.flex2{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    
+}
+.flex3{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    
+    
+    
+}
+.flex4{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    
+    
+}
+.trans{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    transition: 3s linear;
+}
+.trans:hover{
+    background-color: bisque;
+    width: 150px;
+
+}
+.transf{
+    background-color: blueviolet;
+    width: 50px;
+    height: 50px;
+    transform: rotate(60deg);
+}
+.grid-container{
+    margin: 0;
+    padding: 2px;
+    box-sizing: border-box;
+    width:69% ;
+    margin: 50px auto;
+    border: 2px grey solid;
+    display: grid;
+    color: beige;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns:300px 500px;
+    grid-gap: 20px;
+}
+.grid-item1{
+    background-color: mediumorchid ;
+}
+.grid-item2{
+    background-color:sienna ;
+}
+.grid-item3{
+    background-color: palegoldenrod;
+}
+.grid-item4{
+    background-color: peru;
+}
+.grid-item5{
+    background-color:pink ;
+}
+.grid-item6{
+    background-color: slategrey ;
+
+}
+.combinator p { color: #000;
+
+}
+div > p{
+
+background-color: azure;
+}
+.adjacent + p {
+    background-color: blue;
+}
+div ~ p {
+    background-color: orange
+    ;
+    color: blanchedalmond;
+}
+a:link{
+    color: red;
+}
+a:visited{
+    color: green;
+}
+a:hover{
+    color: palevioletred;
+}
+a:active{
+    color: blue;
+}
